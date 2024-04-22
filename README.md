@@ -30,7 +30,7 @@ After the agent with the turn finished, if the game is not over, the agent that 
 [X] There's an indication of some sort that the game finished; that is, loop terminates at some point.\
 [X] Communication between animator and script works\
 [X] Successful initialization\
-[] Replace resources (texture, objects) to more 'formal' characters.
+[X] Replace resources (texture, objects) to more 'formal' characters.
 
  
 ### B rubric
