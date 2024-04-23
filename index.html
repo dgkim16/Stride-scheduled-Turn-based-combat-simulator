@@ -21,5 +21,87 @@
         // devicePixelRatio: 1, // Uncomment this to override low DPI rendering on high DPI displays.
       });
     </script>
+    <div class = "md">
+      <h1>WIP Simulator</h1>
+      <p>Title: Honkai StarRail simulator<br>
+        Summary:<br>
+        This project aims to mimik the battle system used in a video game titled Honkai StarRail using RBT data structure.<br>
+        Their battle system is inspired by, and therefore strongly resemblances that of, the series of video games called Persona.<br>
+        There are two groups A, consisting of playable agents, and B, consisting of enemy agents, in this game.<br>
+        Each agent has their own preassigned values, such as its name, skill ids, character id, speed, attack, max hp, and type.<br>
+        All agents mimik the characters with the type 'hunt' from the original game, so their types are fixated.<br>
+        Rounds are taken among all agents with resepct to their BAV values, which is initialized for each agent using their speed values.<br>
+        The panels alligned vertically on the left edge of the screen are updated when appropriate to reflect the BAV values in real time.<br>
+        The agent with the lowest BAV value takes the turn of that round, and all agents' BAV values are decremented by that lowest amount.<br>
+        If the agent is playable, the game waits for input from the user. Otherwise, the enemy agent attacks an ally.<br>
+        Which ally is attacked by the enemy agent, and equivalently the enemy agent automatically targeted by an playable agent in its turn, depends on their Hit probability.<br>
+        Hit probability for each character is computed using the Aggro value for each agent, which is computed with respect to its predetermined type.<br>
+        After the agent with the turn finished, if the game is not over, the agent that played the turn reset its BAV value, and the game goes on to ex\ecute the next round.</p>
+      <p>C rubric<br><br>
+        [X] Uses BST for managing turns<br>
+        [X] Uses RBT for managing turns<br>
+        [X] Load data from JSON files<br>
+        [X] Create a working speed system<br>
+        [X] Hide non-affected allies that blocks the view of the Camera<br>
+        [X] Both skill button works, and are only visible when it is player's turn<br>
+        [X] Turn starts only when all animations are finished.<br>
+        [X] There's an indication of some sort that the game finished; that is, loop terminates at some point.<br>
+        [X] Communication between animator and script works<br>
+        [X] Successful initialization<br>
+        [X] Replace resources (texture, objects) to more 'formal' characters.<br><br>
+        
+        B rubric<br><br>
+        [X] Dead aren't targeted and can not be targeted.<br>
+        [X] Resolves the edge case where clones of enemies don't break the tree.<br>
+        [X] Make use of the animator override controller<br>
+        [X] Both skills aren't instakills<br>
+        [X] menu ( start & end )<br>
+        [X] Enemies actually do perform an action when their turn comes<br>
+        [X] There is a random aggro-target system<br>
+        [X] Background music<br>
+        [X] Background is not default<br>
+        [X] Size is less than 100mb (allows upload to & depolyment via github pages)<br><br>
+        
+        A rubric<br><br>
+        [X] Stylized menu ( end allows restart )<br>
+        [ㅁ] You can modify data (character stats) in start screen<br>
+        [X] Implement actual working BAV (spd) mechanism used in the original game.<br>
+        [X] Implement actual aggro mechanism used in the original game.<br>
+        [X] Implement 3rd skill (ult) that works & is executable<br>
+        [X] Make shader reflect the character's ult value.<br>
+        [] Shake, or animate the hp bar when affected<br>
+        [X] Add a condition for skill 2 (requires skillpoint for execution)<br>
+        [X] Make skill 1 give skillpoint<br>
+        [X] Adding audio<br>
+        [] Make enemies smarter (enemies can buff each other)<br>
+        [X] Be able to identify who will be affected by player's action (while awaiting for execution by player input) by looking at turn panels<br>
+        [X] Create documentation (+ attributions)<br><br>
+        
+        A** rubric (Highly doubt these are possible in 2 weeks.)<br><br>
+        [?] There's no bug<br>
+        [X] Implement a priority queue for the current 'turn'.<br>
+        [] Add 'break effect / weakness' mechanism to the game<br>
+        [] Implement a 'wave' system : in a single battle, the next 'wave' of monsters join the battle only when the current wave of enemies are wiped<br>
+        [] Use deep learning to create a model that survives as long as possible.<br>
+        [] Make the game 'rogue-like'<br><br>
+        
+        Features added post-meeting or aren't in rubric<br><br>
+        [X] Added Indicators for how much HP changed, so one can clearly see how much hp changed by action<br>
+        [X] Added Auto and speed changer<br>
+        [X] Added heal skill<br>
+        [X] Added more motions & multi-hit mechanism<br>
+        [X] Improved camera to show relevant characters within its frustrum<br>
+        [X] All animator controllers are now replaced with AnimatorControllerOverrides\<br><br>
+        
+        Attribution<br><br>
+        Robot Kyle - by Unity Technologies, Unity Asset Store, Unity Companion License<br>
+        Main menu music - Music by Bensound, License code: STEVGPKNYNB72BDH<br>
+        Battle music - Music generated using Suno. https://suno.com/song/5fd88f2f-6d1d-43ae-a92f-30ec229cece9<br>
+        Button click sounds - Published by Michsky, Unity Asset Store, Unity Standard License<br>
+        hit SFX - Minecraft villager hit sound<br>
+        heal SFX - https://youtu.be/eb3Q2SCkd1E<br>
+        skybox - by PULSAR BYTES, Unity Asset Store, Unity Standard License<br>
+        motions - all from Mixamo\</p>
+    </div>
   </body>
 </html>
