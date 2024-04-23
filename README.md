@@ -15,7 +15,7 @@ https://dgkim16.github.io/optionalPRJ
 [X] There's an indication of some sort that the game finished; that is, loop terminates at some point.\
 [X] Communication between animator and script works\
 [X] Successful initialization\
-[X] Replace resources (texture, objects) to more 'formal' characters.\
+[X] Replace resources (texture, objects) to more 'formal' characters.
  
 ### B rubric
 ---
@@ -25,7 +25,7 @@ https://dgkim16.github.io/optionalPRJ
 [] Add 'buff' system to the game.\
 [X] Enemies actually do perform an action when their turn comes\
 [X] There is a random aggro-target system \
-[X] Size is less than 100mb (allows upload to & depolyment via github pages)\
+[X] Size is less than 100mb (allows upload to & depolyment via github pages)
 
 ### A rubric
 ---
@@ -39,15 +39,37 @@ https://dgkim16.github.io/optionalPRJ
 [X] Make skill 1 give skillpoint\
 [] Make enemies smarter (enemies can buff each other)\
 [X] Be able to identify who will be affected by player's action (while awaiting for execution by player input) by looking at turn panels\
-[] Create documentation (+ attributions)\
+[X] Create documentation (+ attributions)
 
 
 ### A** rubric (Highly doubt these are possible in 2 weeks.)
 ---
-[] There's no bug\
+[?] There's no bug\
 [X] Implement a priority queue for the current 'turn'.\
 [] Add 'break effect / weakness' mechanism to the game\
 [] Implement a 'wave' system : in a single battle, the next 'wave' of monsters join the battle only when the current wave of enemies are wiped\
 [] Use deep learning to create a model that survives as long as possible.\
 [] Make the game 'rogue-like'
+
+### Features added post-meeting or aren't in rubric
+---
+[X] Added Indicators for how much HP changed, so one can clearly see how much hp changed by action\
+[X] Added Auto and speed changer\
+[X] Added heal skill\
+[X] Added more motions & multi-hit mechanism\
+[X] Improved camera to show relevant characters within its frustrum\
+[X] All animator controllers are now replaced with AnimatorControllerOverrides\
+
+
+
+### Attribution
+---
+Robot Kyle - by Unity Technologies, Unity Asset Store, Unity Companion License\
+Main menu music - Music by Bensound, License code: STEVGPKNYNB72BDH\
+Battle music - Music generated using Suno. https://suno.com/song/5fd88f2f-6d1d-43ae-a92f-30ec229cece9\
+Button click sounds - Published by Michsky, Unity Asset Store, Unity Standard License\
+hit SFX - Minecraft villager hit sound\
+heal SFX - https://youtu.be/eb3Q2SCkd1E\
+skybox - by PULSAR BYTES, Unity Asset Store, Unity Standard License\
+motions - all from Mixamo\
 
