@@ -38,6 +38,7 @@
         Which ally is attacked by the enemy agent, and equivalently the enemy agent automatically targeted by an playable agent in its turn, depends on their Hit probability.<br>
         Hit probability for each character is computed using the Aggro value for each agent, which is computed with respect to its predetermined type.<br>
         After the agent with the turn finished, if the game is not over, the agent that played the turn reset its BAV value, and the game goes on to ex\ecute the next round.</p>
+      <!--
       <p>C rubric<br><br>
         [X] Uses BST for managing turns<br>
         [X] Uses RBT for managing turns<br>
@@ -93,6 +94,21 @@
         [X] Added more motions & multi-hit mechanism<br>
         [X] Improved camera to show relevant characters within its frustrum<br>
         [X] All animator controllers are now replaced with AnimatorControllerOverrides\<br><br>
+      -->
+
+      TODO list (2024.09.14)
+      [] Fix ultimate bug
+      [] "Generify" cinemachine placeholder prefabs
+      [] Create Flow diagram (logic diagram)
+      [] Change skill button mapping mechanism
+      [] Divide 'current turn queue' into two queues : waitlist queue & action queue
+
+      WISH list
+      [] Update project to Unity to 6.0
+      [] Use enums instead of hard coded int for implementation of IComparable in CharacterBattle
+      [] Add miscalleneous setting UI (placeholder; for changing volume)
+      [] Add save & load - save outputs copyable unique Progress Identifier "PID", and load lets user input the PID
+      [] Add "Rounds"
         
         Attribution<br><br>
         Robot Kyle - by Unity Technologies, Unity Asset Store, Unity Companion License<br>
