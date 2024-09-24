@@ -3,7 +3,9 @@ Donghwan Kim\
 https://dgkim16.github.io/optionalPRJ
 # Rubrics (to-do list)
 
-Title: Honkai StarRail simulator \
+Title: Turn Based Strategy Game Simulator\
+Journal : https://pebble-rook-001.notion.site/TBS-journal-104c513fe853806da1d3f343fba4810b
+<!--
 Summary:\
 This project aims to mimik the battle system used in a video game titled Honkai StarRail using RBT data structure.\
 Their battle system is inspired by, and therefore strongly resemblances that of, the series of video games called Persona.\
@@ -80,8 +82,7 @@ After the agent with the turn finished, if the game is not over, the agent that 
 [X] Improved camera to show relevant characters within its frustrum\
 [X] All animator controllers are now replaced with AnimatorControllerOverrides\
 
-
-
+-->
 ### Attribution
 ---
 Robot Kyle - by Unity Technologies, Unity Asset Store, Unity Companion License\
