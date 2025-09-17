@@ -1,7 +1,7 @@
 
 Donghwan Kim\
 This is a WebGL demo, version 1.0 from May 2024.
-https://dgkim16.github.io/optionalPRJ
+https://dgkim16.github.io/Stride-scheduled-Turn-based-combat-simulator
 
 #Title: Turn Based Strategy Game Simulator\
 Journal : https://pebble-rook-001.notion.site/TBS-journal-104c513fe853806da1d3f343fba4810b
