@@ -4,7 +4,7 @@ This is a WebGL demo, version 1.0 from May 2024.
 https://dgkim16.github.io/Stride-scheduled-Turn-based-combat-simulator
 
 #Title: Turn Based Strategy Game Simulator\
-Journal : https://pebble-rook-001.notion.site/TBS-journal-104c513fe853806da1d3f343fba4810b
+Journal : [https://pebble-rook-001.notion.site/TBS-journal-104c513fe853806da1d3f343fba4810b](https://dgkim16.notion.site/TBS-journal-104c513fe853806da1d3f343fba4810b?pvs=74)
 <!--
 Summary:\
 This project aims to mimik the battle system used in a video game titled Honkai StarRail using RBT data structure.\
